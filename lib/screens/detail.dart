@@ -82,7 +82,7 @@ class _DetailState extends State<Detail> {
             ElevatedButton(
               onPressed: () => _deleteStudent(context),
               child: Icon(Icons.check_box_sharp),
-              style: ElevatedButton.styleFrom(primary: Colors.red),
+              style: ElevatedButton.styleFrom(primary: Colors.orange),
             ),
           ],
         );
